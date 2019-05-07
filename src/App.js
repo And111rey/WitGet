@@ -35,7 +35,7 @@ class App extends Component {
     return (
       <div className="list_father">
         < WeatherNow  data={data} updateTown={this.updateTown} />
-        <h2>{this. state.town}</h2>
+        <h2>{this.state.town}</h2>
       </div>
     );
   }
